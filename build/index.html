@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- JavaScript -->
+  </head>
+  <body>
+    <!-- Component Start -->
+    <header>
+      <!-- navbar goes here -->
+      <nav class="overflow-hidden bg-gray-900 text-gray-300">
+        <div class="mx-auto max-w-6xl px-4">
+          <div class="flex justify-between">
+            <div class="flex space-x-4">
+              <!-- logo -->
+              <div>
+                <a
+                  href="#"
+                  class="flex items-center px-2 py-5 text-gray-400 hover:text-gray-100"
+                >
+                  <svg
+                    class="mr-1 h-6 w-6 text-blue-400"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                    />
+                  </svg>
+                  <span class="font-bold">video</span>
+                </a>
+              </div>
+
+              <!-- primary nav -->
+              <div class="hidden items-center space-x-1 md:flex">
+                <a href="#" class="px-3 py-5 text-gray-400 hover:text-gray-100"
+                  >Features</a
+                >
+                <a href="#" class="px-3 py-5 text-gray-400 hover:text-gray-100"
+                  >Pricing</a
+                >
+              </div>
+            </div>
+
+            <!-- secondary nav -->
+            <div class="hidden items-center space-x-1 md:flex">
+              <a href="" class="px-3 py-5">Login</a>
+              <a
+                href=""
+                class="rounded bg-yellow-400 px-3 py-2 text-yellow-900 transition duration-300 hover:bg-yellow-300 hover:text-yellow-800"
+                >Signup</a
+              >
+            </div>
+
+            <!-- mobile button goes here -->
+            <div class="flex items-center md:hidden">
+              <button class="mobile-menu-button">
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+          <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200"
+            >Features</a
+          >
+          <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200"
+            >Pricing</a
+          >
+        </div>
+      </nav>
+
+      <!-- content goes here -->
+      <!-- <div class="py-32 text-center">
+        <h2 class="font-extrabold text-4xl">Navbars in Tailwind!</h2>
+    </div> -->
+    </header>
+    <main>
+<div class="hero text-center mt-1">
+    <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">latest views</h1>
+<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+
+</div>
+
+
+      <div class="container m-auto flex w-3/4 justify-between overflow-y-auto">
+        <svg
+          class="click_left relative"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="h-6 w-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+          />
+        </svg>
+
+        <div
+          class="panel active"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235144815-7d4bf110-e5d2-44fb-8b1d-25c2bb02ebd5.png);
+          "
+        >
+          <h1>Harry Potter</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235144826-9550f845-faae-4658-a811-f881402c0cf9.png);
+          "
+        >
+          <h1>Hermione Granger</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235144843-daa79922-12b8-4130-8374-18f6c00d7bbe.png);
+          "
+        >
+          <h1>Ron Weasley</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235144871-2041965b-dc94-4a33-a987-11b7d980f7f6.png);
+          "
+        >
+          <h1>Severus Snape</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235144895-9116b4ee-ee7b-4b17-be75-50a142eed108.png);
+          "
+        >
+          <h1>Rubeus Hagrid</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235145163-37764c1f-97e1-4902-a4ed-27d2a10e8b29.png);
+          "
+        >
+          <h1>Bellatrix Lestrange</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235145187-00c35ae5-0e33-4ee7-92e7-cd4782143891.png);
+          "
+        >
+          <h1>Sirius Black</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235145207-2730ffb5-4579-43d5-878a-e3aff021eaa9.png);
+          "
+        >
+          <h1>Albus Dumbledore</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235145234-61a54f5c-cc35-49f8-b8df-0e3bc60b8d22.png);
+          "
+        >
+          <h1>Draco Malfoy</h1>
+        </div>
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235145261-fd2bb90d-e606-40e2-8b2c-e8aecc3714a0.png);
+          "
+        >
+          <h1>Dobby</h1>
+        </div>
+
+        <div
+          class="panel"
+          style="
+            background-image: url(https://user-images.githubusercontent.com/13468728/235145392-0c510ca1-5c57-4a11-8d32-02fa8f2f77ad.png);
+          "
+        >
+          <h1>Lord Voldemort</h1>
+        </div>
+        <svg
+          class="click_right relative"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="h-6 w-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+          />
+        </svg>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

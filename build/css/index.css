@@ -1,0 +1,76 @@
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.5s linear;
+}
+.click_left, .click_right{
+    width: 11.666667%;
+    height: 10%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 1.2rem;
+}
+.click_left:hover, .click_right:hover{
+    background-color: rgb(224, 224, 224);
+}
+.panel h1 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h1 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media screen and (max-width: 880px) {
+    .container {
+        width: 90vw;
+    }
+
+    /* .panel:nth-of-type(4), .panel:nth-of-type(5), .panel:nth-of-type(6), .panel:nth-of-type(7), .panel:nth-of-type(8), .panel:nth-of-type(9), .panel:nth-of-type(10), .panel:nth-of-type(11), .panel:nth-of-type(12) {
+        display: flex;
+    } */
+    .panel{
+        display: none;
+    }
+    .panel.active{
+        display: block;
+        /* width: 120%; */
+    }
+    main{
+        position: relative;
+    }
+    .click_left, .click_right{
+       
+        position: absolute;
+        top: 50%;
+        width: 16.666667%;
+        height: 4rem;
+        background-color: rgba(255, 255, 255, 0.171);
+        opacity: .8;
+    }
+    .click_right{
+        right: 10%;
+    }
+    .click_left{
+        right: 73%;
+        z-index: 51;
+    }
+}
